@@ -5,8 +5,8 @@ This script works with Twilio, the text messaging api and alphavantage free stoc
 
 Just enter your database's and twilio connection's infos in apiKey.py and start up the script.
 
-The bot works with regexps to receive instructions.  The possible text message instructions are:
-  get alarms: Shows you all of your active alarms
+The bot works with regexps to receive instructions.  The possible text message instructions are:\n
+  get alarms: Shows you all of your active alarms\n
   get alarms [stock]: Shows you all of your active alarms for [stock]
   get price [stock]: Shows you the current price of [stock]
   set alarm [stock] [above|below] [price]: sets an alarm for when [stock] price goes [above or below] [price]
